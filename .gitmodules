@@ -1,0 +1,9 @@
+[submodule "jansson"]
+	path = jansson
+	url = https://github.com/akheron/jansson
+[submodule "cJSON"]
+	path = cJSON
+	url = https://github.com/DaveGamble/cJSON
+[submodule "rapidjson"]
+	path = rapidjson
+	url = https://github.com/Tencent/rapidjson
