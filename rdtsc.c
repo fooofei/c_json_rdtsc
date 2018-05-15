@@ -8,6 +8,8 @@
 #include <mach/mach.h>
 #endif
 
+// also can see zmq rdtsc https://github.com/zeromq/libzmq/blob/master/src/clock.cpp
+
 /* 这个计时是获得时钟周期 比time 更贴切*/
 #ifndef WIN32
 uint64_t rdtsc2()
