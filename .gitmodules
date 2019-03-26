@@ -7,3 +7,6 @@
 [submodule "rapidjson"]
 	path = rapidjson
 	url = https://github.com/Tencent/rapidjson
+[submodule "json-c"]
+	path = json-c
+	url = https://github.com/json-c/json-c

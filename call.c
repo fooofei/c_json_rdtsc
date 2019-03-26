@@ -33,6 +33,7 @@ struct json_struct
     struct json_struct_sub sub[0];
 };
 
+// generate struct for the json libs serialization
 struct json_struct * make_struct()
 {
     struct json_struct * r = calloc(1, sizeof(struct json_struct) + 2 * sizeof(struct json_struct_sub));
